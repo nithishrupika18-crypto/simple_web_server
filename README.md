@@ -132,6 +132,6 @@ httpd.serve_forever()
 ```
 
 # OUTPUT:
-        simple_web_server/Screenshot 2026-11-17 111405.png    
+   ![Web Server Output](Screenshot 2026-11-17 111405.png)    
 # RESULT:
 The program for implementing simple webserver is executed successfully.
