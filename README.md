@@ -22,7 +22,8 @@ Testing the webserver.
 
 # PROGRAM:
 
-```from http.server import HTTPServer,BaseHTTPRequestHandler
+```
+from http.server import HTTPServer,BaseHTTPRequestHandler
 content='''
 <html>
 <head>
@@ -127,7 +128,8 @@ class Myserver(BaseHTTPRequestHandler):
 print("This is my webserver")
 server_address=('127.0.0.1',8000)
 httpd = HTTPServer(server_address,Myserver)
-httpd.serve_forever()```
+httpd.serve_forever()
+```
 
 # OUTPUT:
         simple_web_server/Screenshot 2026-11-17 111405.png    
